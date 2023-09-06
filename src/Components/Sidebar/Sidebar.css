@@ -1,0 +1,70 @@
+.sidebar {
+    width: 15%;
+    background: #1e1f26;
+    height: 100vh;
+    color: aliceblue;
+    text-align: center;
+}
+.logo{
+    margin: 15px;
+}
+.tag {
+    color: var(--cp-color-8);
+    margin-top: 0.5rem;
+    letter-spacing: -.02rem;
+    text-align: center;
+    margin: 'auto';
+
+}
+
+.rainbowbtn {
+    background: radial-gradient(circle at 100% 100%, #ffffff 0, #ffffff 2px, transparent 2px) 0% 0%/3px 3px no-repeat,
+        radial-gradient(circle at 0 100%, #ffffff 0, #ffffff 2px, transparent 2px) 100% 0%/3px 3px no-repeat,
+        radial-gradient(circle at 100% 0, #ffffff 0, #ffffff 2px, transparent 2px) 0% 100%/3px 3px no-repeat,
+        radial-gradient(circle at 0 0, #ffffff 0, #ffffff 2px, transparent 2px) 100% 100%/3px 3px no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 2px) calc(100% - 6px) no-repeat,
+        linear-gradient(#ffffff, #ffffff) 50% 50%/calc(100% - 6px) calc(100% - 2px) no-repeat,
+        conic-gradient(#ff0000 0%, #ffff00 16.67%, #00ff00 33.33%, #00ffff 50%, #0000ff 66.67%, #ff00ff 83.33%, #ff0000 100%);
+    border-radius: 3px;
+    padding: 3px;
+    box-sizing: border-box;
+    margin: 25px;
+}
+
+.startBtn {
+    color: #fff;
+    background-color: black;
+    position: relative;
+    z-index: 2;
+    padding: 0.875rem 0;
+    font-size: 1rem;
+    align-items: center;
+    background: #000;
+    border-radius: 3px;
+    display: block;
+    justify-content: center;
+    box-sizing: border-box;
+    height: 100%;
+    font-family: inherit;
+}
+
+.links {
+    padding-left: 25px;
+    text-align: start;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: baseline;
+    padding: 0.75rem 1.375rem;
+    font-weight: 500;
+    color: var(--cp-color-1);
+    text-align: left;
+    line-height: 1;
+    transition: .2s ease;
+    background: 0 0;
+    border: 0;
+    width: 100%;
+    font-size: 1.125rem;
+    cursor: pointer;
+}

@@ -1,0 +1,143 @@
+.mainscreen {
+    width: 85%;
+    padding: 32px;
+    background-color: black;
+}
+
+.head {
+    display: flex;
+}
+
+.search {
+    width: 80%;
+    font-weight: 700;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #252830;
+    border: none;
+    padding: 0.4em;
+    text-indent: 2em;
+    border: 0;
+    border-radius: 4px;
+    font: inherit;
+    color: #fff;
+    outline: none;
+}
+
+.btns {
+    display: flex;
+    width: 20%;
+    justify-content: center;
+}
+
+.signupbtn {
+    color: black;
+    background: #47d073;
+    border-radius: 5px;
+    align-items: center;
+    vertical-align: middle;
+    position: relative;
+    font-family: inherit;
+    font-size: 1rem;
+    text-shadow: none;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none;
+    background-color: #47d073;
+    width: fit-content;
+    font-size: 1rem;
+    padding: 8px 18px;
+    border-radius: 4px;
+
+}
+
+.loginbtn {
+    font-size: 1rem;
+    text-shadow: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    cursor: pointer;
+    color: #fff;
+    padding: 8px 18px;
+    background-color: #444858;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.content {
+    display: flex;
+}
+
+.left {
+    width: 50%;
+}
+
+.headarea {
+    display: flex;
+}
+
+.left-img {
+    fill: #fff;
+    height: 50px;
+    margin-bottom: 2rem;
+    width: 20%;
+    margin-top: 3rem;
+}
+
+.left h1 {
+    line-height: 1.1;
+    font-size: 3rem;
+    color: #fff;
+    width: 80%;
+}
+
+.right {
+    width: 50%;
+}
+
+
+
+.left p {
+    color: #fff;
+    text-align: start;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    line-height: 28px;
+}
+
+.signupFreebtn {
+    align-items: center;
+    vertical-align: middle;
+    position: relative;
+    font-family: inherit;
+    font-size: 1rem;
+    text-shadow: none;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    text-decoration: none !important;
+    font-weight: 400 !important;
+    background-color: #47d073;
+    width: fit-content;
+    font-size: 1rem;
+    color: black;
+    font-weight: 700;
+    padding: 12px 18px;
+    border-radius: 4px;
+    margin-left: 10px;
+}
+
+.outer {
+    height:410px;
+}
+
+.right-animation-img {
+    margin-bottom: 2rem;
+    width: 100%;
+    height: auto;
+    margin-top: 20%;
+}
